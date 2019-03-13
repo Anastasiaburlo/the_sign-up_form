@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <h3>Пожалуйста, укажите Ваше имя и фамилию.</h3>
+        <p>Чтобы облегчить общение и поиск друзей, у нас приняты настоящие имена и фамилии.</p>
+        <form action="index.html" method="POST">
+            
+            <input type="text" name="firstname" placeholder="Ваше имя" class="field" required> 
+            
+			<input type="text" name="lastname" placeholder="Ваша фамилия" class="field" required> 
+         <h5>Дата рождения</h5>
+ <div class="select-wrapper">
+                    <select class="birthday">
+                            <option value="2018">День</option>
+                            <option value="1">1</option>
+                            <option value="31">31</option>
+                    </select>
+                       
+
+                    <select class="birthday">
+                            <option value="0">Месяц</option>
+                            <option value="января">января</option>
+                            <option value="декабря">декабря</option>
+                    </select>       
+
+                <select class="birthday">
+                    <option value="0">Год</option>
+					<option value="2018">2018</option>
+                    <option value="1900">1900</option>
+                </select>
+			</div>
+            
+            <input type="submit" value="Зарегистрироваться" class="field checkin">
+            <div class="border">или</div>
+            <input type="submit" value="Продолжить с Facebook" class="field facebook">
+        </form>
+    </div>
+</body>
+</html>
